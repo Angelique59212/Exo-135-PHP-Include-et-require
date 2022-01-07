@@ -8,6 +8,8 @@ echo "Un fichier php va être inclu à la suite de ce texte ...<br><br>";
 
 // Deuxieme Ligne ( inclure fichiers vars.php ci dessous )
 require "vars.php";
+
+
 echo "J'aime également les " . $maVar;
 
 
